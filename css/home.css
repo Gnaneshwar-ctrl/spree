@@ -10,7 +10,7 @@ html {
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-image: url('../assets/landing_view/bg.jpg');
+    background-image: url('../assets/landing_view/bg_2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -24,7 +24,7 @@ html {
 }
 
 #event-title div {
-    font-family: "signatra";
+    font-family: "stenfield";
     position: absolute;
     top: 68%;
     left: 50%;
@@ -80,48 +80,26 @@ html {
     z-index: 50;
 }
 
-#petals {
-    z-index: 45;
-}
 
-#lights {
+#stars {
     z-index: 40;
 }
 
-#lights img {
+#stars img {
     bottom: 0;
     width: 90%;
-}
-
-#grass_1 {
-    z-index: 30;
-}
-
-#grass_2 {
-    z-index: 25;
-}
-
-#grass_3 {
-    z-index: 15;
 }
 
 #event-title {
     z-index: 50;
 }
 
-#grass_1 img, #grass_2 img {
-    bottom: -30px;
-}
 
-#grass_3 img {
-    bottom: 5px;
-}
-
-#tree {
+#planet {
     z-index: 20;
 }
 
-#tree img {
+#planet img {
     bottom: -50px;
 }
 
@@ -148,31 +126,15 @@ html {
         background-position: top;
     }
 
-    #grass_1 img, #grass_2 img {
-        width: 200%;
-    }
-
-    #tree img {
+    #planet img {
         width: 105%;
     }
 
-    #grass_1 img {
-        bottom: -20px;
-    }
-
-    #grass_2 img {
-        bottom: 10px;
-    }
-    
-    #grass_3 img {
-        bottom: 150px;
-    }
-
-    #tree img {
+    #planet img {
         bottom: 130px;
     }
 
-    #lights img {
+    #stars img {
         bottom: 110px;
     }
 }
