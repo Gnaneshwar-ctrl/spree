@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website for SpringSpree NITWarangal 2022">
+    <meta name="og:title" property="og:title" content="SpringSpree 2022">
+    
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="1280" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap">
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <title>SpringSpree'22</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HXPJ00LWH"></script>
+    <!--
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1HXPJ00LWH');
+    </script>
+-->
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="large">
+            <h3><a href="#">SpringSpree'22</a></h3>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="small-nav">
+            <h3><a href="#">SpringSpree'22</a></h3>
+            <button id="toggle-navbar" onclick="navbarToggleFun()">
+                <div class="hamburger" id="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </button>
+        </div>
+        <ul class="small-nav-links small-nav" id="mobile-nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li>
+                <img src="assets/landing_view/clg_logo.png" alt="stars">
+            </li>
+        </ul>
+    </nav>
+
+    <section id="landing-view">
+        <ul id="landing-view-scene">
+            <li data-depth="0.06" id="logo" class="layer">
+                <img src="assets/landing_view/logo.png" alt="logo">
+            </li>
+            <li data-depth="0.2" id="stars" class="layer">
+                <img src="assets/landing_view/stars.png" alt="stars">
+            </li>
+            <li data-depth="0.5" id="universe" class="layer">
+                <img src="assets/landing_view/bg_2.png" alt="universe">
+            </li>
+            <li data-depth="0.7" id="planet" class="layer">
+                <img src="assets/landing_view/planet.png" alt="planet">
+            </li>
+            <li data-depth="0" id="event-title" class="layer">
+                <div>
+                    <h1 class="titlename">SpringSpree'22</h1>
+                    <p class="themename">Srishti</p>
+                    <p class="event-dates">April 8-10, 2022</p>
+                </div>
+                
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content" data-scroll>
+                <h2>About</h2>
+                <p>SpringSpree, conceived in 1978 and now coming to it's 35th edition,
+                    is NIT Warangal's cultural fest. It is one of the biggest fests in
+                    the country, with a far-reaching impact on students all over the
+                    nation.
+                </p>
+                <p>With a plethora of thrilling events, from Idol, Director's Cut,
+                    Choreo Night, etc... and several new activities as well, SpringSpree
+                    is back in 2022 after a two year hiatus! A festival well worth your
+                    time, we are ready to bring you entertainment and excitement like
+                    never before.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="main-content">
+            <div class="left box">
+                <div class="content">
+                    <img src="./assets/landing_view/logo.png" alt="spree-logo" class="footer-logo">
+                </div>
+            </div>
+
+            <div class="center box" data-scroll>
+                <h2>Links</h2>
+                <div class="content-with-underline">
+                    <div>
+                        <span class="text"><a href="#">Home</a></span>
+                    </div>
+                    <div>
+                        <span class="text"><a href="#about">About</a></span>
+                    </div>
+                    <div>
+                        <span class="url"><a href="https://www.youtube.com/watch?v=RaSRQDaoARY">Trailer</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box" data-scroll id="contact">
+                <h2>Let's Connect</h2>
+                <div class="content-with-underline">
+                    <div class="content">
+                        <div class="place">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text"> <a href="">National Institute of Technology Campus ,<br />fathimanagar, Telangana 506004</a></span>
+                        </div>
+                        <div class="phone">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text"><a href="tel:0870 245 9191">0870 245 9191</a></span>
+                        </div>
+                        <div class="page">
+                            <span class="fas fa-home"></span>
+                            <span class="text"><a href="https://www.nitw.ac.in">https://www.nitw.ac.in</a></span>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/nitw.springspree"><span
+                                class="fab fa-facebook-f"></span></a>
+                        <a href="https://www.instagram.com/springspree_nitw/"><span class="fab fa-instagram"></span></a>
+                        <a href="https://www.youtube.com/watch?v=RaSRQDaoARY"><span
+                                class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <center>
+                <span class="credit">Created By Springspree'22 WebDev Team </a> | </span>
+                <span class="far fa-copyright"></span><span> 2022 All rights reserved.</span>
+            </center>
+        </div>
+    </footer>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
